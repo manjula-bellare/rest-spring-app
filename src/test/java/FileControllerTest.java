@@ -21,7 +21,6 @@ public class FileControllerTest {
     private MockMvc mockMvc;
     @Mock
     private FileResource fileResource;
-
     @Mock
     private FileInputStream fileInputStream;
     @Test
