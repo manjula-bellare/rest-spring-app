@@ -1,7 +1,7 @@
 # rest-spring-app
 
 # About
-rest-spring-app codebase walks you through creating RESTful web service, connect and create persistent models in the MySQL database.
+rest-spring-app codebase walks through creating RESTful web service, connect and create persistent models in the MySQL database.
 
 # Setup MySQL Database
 Assumption: Docker environment is available locally.
@@ -15,9 +15,9 @@ Assumption: Docker environment is available locally.
 
 # Test the application
 
-``curl http://localhost:8080/api/resources/upload -F name=@/{relative filePath}/``
+``% curl http://localhost:8080/api/resources/upload -F name=@/{relative filePath}/``
 
-``curl http://localhost:8080/api/resources/user?id={persisted userId}``
+``% curl http://localhost:8080/api/resources/user?id={persisted userId}``
 
 # Create Docker Image
 - ./gradlew bootBuildImage
